@@ -4,7 +4,6 @@ from demo import WorldData
 class WidgetTestCase(unittest.TestCase):
     def setUp(self):
         self.worldlData = WorldData('happy') 
-      
 
     def tearDown(self):
          self.worldlData = None
